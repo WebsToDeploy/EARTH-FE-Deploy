@@ -2,7 +2,7 @@
 import axios from "axios";
 // import API_URL from "env";
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://earth-be.onrender.com";
 
 function getById(id, moduleName) {
   return axios.get(`${BASE_URL}/${moduleName}/get/${id}`);

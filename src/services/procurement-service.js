@@ -4,7 +4,7 @@ import axios from "axios";
 
 // const DEFAULT_DELAY = 1000;
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://earth-be.onrender.com";
 
 function getAPI(id, moduleName) {
   return axios.get(`${BASE_URL}/${moduleName}/get/${id}`);

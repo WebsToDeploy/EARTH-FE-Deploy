@@ -2,7 +2,7 @@
 import axios from "axios";
 // import API_URL from "env";
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://earth-be.onrender.com";
 
 function downloadTemplate(fileName) {
   const currentDate = new Date();
