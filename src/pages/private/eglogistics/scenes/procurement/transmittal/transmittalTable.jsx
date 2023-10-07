@@ -19,14 +19,14 @@ export default function TransmittalTable({
   const colors = tokens(theme.palette.mode);
 
   const columns = [
-    { field: "transmit_date", headerName: "Date", flex: 1, editable: true },
-    {
-      field: "billing_date",
-      headerName: "Billing Date",
-      flex: 1,
-      editable: true,
-    },
-    { field: "po_code", headerName: "PO No.", flex: 1, editable: true },
+    // { field: "transmit_date", headerName: "Date", flex: 1, editable: true },
+    // {
+    //   field: "billing_date",
+    //   headerName: "Billing Date",
+    //   flex: 1,
+    //   editable: true,
+    // },
+    // { field: "po_code", headerName: "PO No.", flex: 1, editable: true },
     { field: "tf_code", headerName: "TF No.", flex: 1, editable: true },
     {
       field: "company_name",
