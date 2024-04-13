@@ -63,18 +63,18 @@ function App() {
                 <Route path="/purchase-order" element={<PurchaseOrder />} />
                 <Route path="/transmittal" element={<Transmittal />} />
               </Route>
+            </Route>
 
-              <Route element={<RequireAuth allowedRoles="bontrade" />}>
-                <Route path="/bontrade" element={<Bontrade />} />
-              </Route>
+            <Route element={<RequireAuth allowedRoles="bontrade" />}>
+              <Route path="/bontrade" element={<Bontrade />} />
+            </Route>
 
-              <Route element={<RequireAuth allowedRoles="ugtrade" />}>
-                <Route path="/ugtrade" element={<UGTrade />} />
-              </Route>
+            <Route element={<RequireAuth allowedRoles="ugtrade" />}>
+              <Route path="/ugtrade" element={<UGTrade />} />
+            </Route>
 
-              <Route element={<RequireAuth allowedRoles="erotas" />}>
-                <Route path="/erotas" element={<Erotas />} />
-              </Route>
+            <Route element={<RequireAuth allowedRoles="erotas" />}>
+              <Route path="/erotas" element={<Erotas />} />
             </Route>
 
             <Route path="/unauthorized" element={<Unauthorized />} />
