@@ -8,7 +8,7 @@ function Layout() {
   const [isSidebar, setIsSidebar] = useState(true);
   const [extension, setExtension] = useState(false);
 
-  const targetDate = new Date("2023-10-30T23:59:00");
+  const targetDate = new Date("2024-06-30T23:59:00");
   const checkExtension = () => {
     const currentDate = new Date();
     if (currentDate >= targetDate) {

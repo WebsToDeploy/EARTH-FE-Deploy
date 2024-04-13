@@ -1,7 +1,7 @@
 import { createContext, useState, useMemo } from "react";
 import { createTheme } from "@mui/material/styles";
 
-const targetDate = new Date("2023-10-30T23:59:00");
+const targetDate = new Date("2024-06-30T23:59:00");
 const currentDate = new Date();
 
 // color design tokens export
